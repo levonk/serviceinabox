@@ -2,13 +2,13 @@ package com.levonk.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
-@EnableEurekaServer
+@EnableConfigServer
 @SpringBootApplication
-public class Discovery {
+public class Config {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Discovery.class, args);
+		SpringApplication.run(Config.class, args);
 	}
 }
