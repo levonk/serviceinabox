@@ -57,6 +57,7 @@
 	<modules>
 		<module>discovery</module>
 		<module>config</module>
+		<module>ordina-dashboard</module>
 		<module>sample-service</module>
 	</modules>
 </project>
